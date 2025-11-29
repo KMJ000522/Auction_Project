@@ -23,4 +23,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/users/', include('users.urls')),     # 회원 관련
     path('api/auctions/', include('auctions.urls')), # 경매 관련
+    path('api/payments/', include('payments.urls')),
 ]
